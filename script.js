@@ -10,6 +10,7 @@ calc.addEventListener("submit", function(e){
     const operator = document.getElementById("operator").value;
     const result = document.getElementById("result");
 
+
     if (operator === "add"){
         result.textContent = firstNum + secondNum;
     }
